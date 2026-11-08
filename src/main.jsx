@@ -13,6 +13,7 @@ import Root from './components/Root/Root.jsx';
 import Leptops from './components/Leptops/Leptops.jsx';
 import Users from './components/Users/Users.jsx';
 import Users2 from './components/Users/Users2.jsx';
+import UserDetails from './UserDetails/UserDetails.jsx';
 
 const usersPromis= fetch('https://jsonplaceholder.typicode.com/users').then(res=>res.json());
 
@@ -35,6 +36,11 @@ const router = createBrowserRouter([
         element: <Suspense fallback={<span>looding.....</span>}>
               <Users2 usersPromis={usersPromis}></Users2>
         </Suspense>
+        },
+        {
+          path:'users/:userId',
+          loader:({params})=>fetch(''),
+          Component:UserDetails
         }
     ]
   },
