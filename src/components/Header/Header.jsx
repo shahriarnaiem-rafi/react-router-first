@@ -4,15 +4,16 @@ import './Header.css'
 const Header = () => {
     return (
         <div>
-           <h3> this is header</h3>
-           <nav>
-            <NavLink to='/'>Home</NavLink>
-            <NavLink to='/mobails'>Mobail</NavLink>
-            <NavLink to='/laptops'>Leptors</NavLink>
-            <NavLink to='/users'>Users</NavLink>
-            <NavLink to='/users2'>Users2</NavLink>
-           </nav>
-            
+            <h3> this is header</h3>
+            <nav>
+                <NavLink to='/'>Home</NavLink>
+                <NavLink to='/mobails'>Mobail</NavLink>
+                <NavLink to='/laptops'>Leptors</NavLink>
+                <NavLink to='/users'>Users</NavLink>
+                <NavLink to='/users2'>Users2</NavLink>
+                <NavLink to='/posts'>Posts</NavLink>
+            </nav>
+
         </div>
     );
 };
