@@ -3,8 +3,10 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
-            <p>Thank you for visitig out website</p>
-            <a href="/">Home</a>
+            <small>thank for visiting</small>
+                <a href="/">terms</a>
+                <a href="/">social media</a>
+                <a href="/">terms</a>
         </div>
     );
 };

@@ -1,11 +1,11 @@
 import React, { use } from 'react';
 
-const Users2 = ({usersPromis}) => {
-    const users=use(usersPromis);
-    console.log("users to sunpense data load  ",users)
+const Users2 = ({ usersPromise }) => {
+    const users = use(usersPromise);
+    console.log('users 2 susmpents data load', users)
     return (
         <div>
-           <h2>This is user 2</h2>
+                <h2>This is user 2</h2>
         </div>
     );
 };
