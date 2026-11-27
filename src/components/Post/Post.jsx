@@ -15,7 +15,7 @@ const Post = ({ post }) => {
             <Link to={`/posts/${id}`}>
                 <button>VIew details</button>
             </Link>
-            <button onClick={ handleNavigate}>details of : {id}</button>
+            <button onClick={handleNavigate}>details of : {id}</button>
         </div>
     );
 };

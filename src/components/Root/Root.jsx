@@ -2,10 +2,10 @@ import React from 'react';
 import Sidebar from '../Sidebar/Sidebar';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
-import { Outlet, useNavigate } from 'react-router';
+import { Outlet, useNavigation } from 'react-router';
 import './Root.css';
 const Root = () => {
-    const navigation = useNavigate();
+    const navigation = useNavigation();
     const isNavigating = Boolean(navigation.location);
 
 
